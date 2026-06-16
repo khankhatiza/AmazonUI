@@ -1,0 +1,136 @@
+*{
+     margin: 0;
+     border: border-box;
+     font-family: arial;
+     background-color: white;
+     color: #0F1111;
+}
+body{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.logo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: -10px;
+}
+.am-logo{
+     background-image: url("amaazon.png");
+     height: 71px;
+     width: 103px;
+     background-size: cover;
+}
+
+.box{
+     height: 260px;
+     width: 303px;
+     border: 1.5px solid rgb(155, 155, 155);
+     border-radius: 3%;
+     padding: 20px 26px;
+}
+
+.page{
+     background-color: rgb(255, 255, 255);
+}
+
+
+.sign{
+     font-size: 20px;
+     padding: 0px 0px 4px;
+     margin: 0px 0px 8px;
+     height: 32px;
+     width: 296px;
+     color: #0F1111;
+}
+
+.email{
+     height: 20px;
+     width: 296px;
+     font-size: 14px;
+     /* padding: 0px 0px 4px; */
+     margin: 0px 0px 4px;
+     font-weight: bold;
+}
+
+.t{
+     height: 18px;
+     width: 91%;
+     padding: 5px 11px;
+     border-radius: 2%;
+}
+button{
+     width: 300px;
+     border-radius: 15px 15px 15px 15px;
+     padding: 1px 6px;
+     height: 30px;
+     margin-top: 8px;
+     background-color: rgb(245, 217, 127);
+     border: solid rgb(245, 217, 127);
+}
+button:hover{
+     border-color: rgb(230, 198, 96);
+     background-color: rgb(230, 198, 96);
+}
+
+.notice{
+     margin: 16px 0px 14px;
+     font-size: 13px;
+}
+.not{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.work{
+     margin: 0px 0px 4px;
+     height: 50px;
+     width: 296px;    
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+}
+.w{
+     font-size: 14px;
+     font-weight: bold;
+     margin: 0px 0px 4px;
+}
+a{
+     font-size: 13px;
+}
+.acc{
+     text-decoration: none;
+     color: #2162A1;
+}
+.acc:hover{
+     text-decoration: underline;
+     color: #033b72;
+}
+
+/* footer     */
+
+.help{
+     border-top: 100%;
+     border-color: #0F1111;
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 12px;
+}
+.hr{
+     width: 100%;
+     margin: 30px 0px 18px;
+     height: 1px;
+}
+.copy{
+     text-align: center;
+     color: #747575;
+     font-size: 12px;
+     font-weight: 100;
+}
+footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
